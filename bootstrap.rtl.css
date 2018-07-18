@@ -1,0 +1,113 @@
+html{
+    direction: rtl;
+}
+body{
+    font-family: 'Vazir';
+    text-align: right;
+}
+.dropdown-item{
+    text-align:right;
+}
+.text-md-left{
+    text-align: right !important;
+}
+.text-md-right{
+    text-align: left !important;
+}
+.mr-2, .mx-2{
+    margin-left: .5rem !important;
+    margin-right: 0;
+
+}
+.mr-md-3, .mx-md-3{
+    margin-left: 1rem !important;
+    margin-right: 0;
+}
+.mr-sm-2, .mx-sm-2{
+    margin-left: .5rem !important;
+    margin-right: 0;
+}
+.btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle){
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+    border-top-right-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+
+}
+.btn-group > .btn-group:not(:first-child) > .btn, .btn-group > .btn:not(:first-child){
+    border-top-left-radius: .2rem;
+    border-bottom-left-radius: .2rem;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.btn-group > .btn:first-child{
+    margin-right: 0;
+}
+.btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group, .btn-group-vertical .btn + .btn, .btn-group-vertical .btn + .btn-group, .btn-group-vertical .btn-group + .btn, .btn-group-vertical .btn-group + .btn-group{
+    margin-left: 0;
+    margin-right: -1px;
+}
+.list-unstyled{
+    padding-right:0;
+}
+.mr-md-auto, .mx-md-auto{
+    margin-left:auto !important;
+    margin-right: 0 !important;
+}
+.input-group > .input-group-append:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group > .input-group-append:last-child > .input-group-text:not(:last-child), .input-group > .input-group-append:not(:last-child) > .btn, .input-group > .input-group-append:not(:last-child) > .input-group-text, .input-group > .input-group-prepend > .btn, .input-group > .input-group-prepend > .input-group-text{
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.custom-control-label:before {
+    right: -1.5rem;
+}
+.custom-control-label:after {
+    right: -1.5rem;
+
+}
+.list-group{
+    padding-right:0;
+}
+.list-inline{
+    padding-right:0;
+}
+.input-group > .custom-select:not(:last-child), .input-group > .form-control:not(:last-child){
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text{
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+.list-inline-item:not(:last-child){
+    margin-left: .5rem;
+    margin-right: 0;
+}
+.carousel-control-prev{
+    right:0;
+}
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon{
+
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+.carousel-control-next{
+    right:auto;
+    left:0;
+}
