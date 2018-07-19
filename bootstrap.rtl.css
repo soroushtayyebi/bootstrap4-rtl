@@ -5,8 +5,16 @@ body{
     font-family: 'Vazir';
     text-align: right;
 }
+.dropdown-menu{
+    right:0;
+    left:auto;
+}
 .dropdown-item{
     text-align:right;
+}
+.dropdown-toggle:after {
+    margin-right: .255em;
+    margin-left: 0;
 }
 .text-md-left{
     text-align: right !important;
@@ -26,6 +34,10 @@ body{
 .mr-sm-2, .mx-sm-2{
     margin-left: .5rem !important;
     margin-right: 0;
+}
+.ml-sm-auto, .mx-sm-auto{
+    margin-right: auto !important;
+    margin-left:0 !important;
 }
 .btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle){
     border-top-left-radius: 0;
@@ -83,7 +95,6 @@ body{
 
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-
 }
 .input-group > .input-group-append > .btn, .input-group > .input-group-append > .input-group-text, .input-group > .input-group-prepend:first-child > .btn:not(:first-child), .input-group > .input-group-prepend:first-child > .input-group-text:not(:first-child), .input-group > .input-group-prepend:not(:first-child) > .btn, .input-group > .input-group-prepend:not(:first-child) > .input-group-text{
     border-top-left-radius: .25rem;
@@ -110,4 +121,8 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
 .carousel-control-next{
     right:auto;
     left:0;
+}
+.dropdown-menu-right {
+    left: 0;
+    right: auto;
 }
