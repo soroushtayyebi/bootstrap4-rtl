@@ -159,3 +159,7 @@ body{
 .form-check-input{
     margin-right: -1.25rem;
 }
+.input-group-append {
+    margin-right: -1px;
+    margin-left: auto;
+}
