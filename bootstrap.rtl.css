@@ -167,3 +167,6 @@ body{
     margin-right: -1px;
     margin-left: auto;
 }
+.breadcrumb-item{
+    float:right;
+}
